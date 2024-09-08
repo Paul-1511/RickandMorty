@@ -44,8 +44,8 @@ Navega hasta la carpeta donde clonaste el repositorio y selecciónalo.
 ### 3.Sincronizar dependencias
 Una vez abierto el proyecto en Android Studio, asegúrate de sincronizar las dependencias:
 
- -Ve a File > Sync Project with Gradle Files.
- -Espera a que se descarguen todas las dependencias necesarias.
+-Ve a File > Sync Project with Gradle Files.
+-Espera a que se descarguen todas las dependencias necesarias.
 
 ### 4. Ejecutar la app
 Conecta un dispositivo físico o usa un emulador y haz clic en el botón Run para instalar y ejecutar la app.
