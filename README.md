@@ -21,7 +21,7 @@ Una aplicación simple desarrollada en **Jetpack Compose** que muestra una lista
 - **Jetpack Navigation Compose**: Manejo de la navegación en la app.
 - **Gradle**: Herramienta de construcción.
 
-## Requisitos 📝
+## Requisitos 
 
 - **Android Studio Bumblebee (o superior)**.
 - **Kotlin 1.5 (o superior)**.
