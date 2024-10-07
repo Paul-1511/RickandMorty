@@ -4,13 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "uvg.edu.gt.rickandmorty"
+    namespace = "uvg.edu.gt.rickmorty"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "uvg.edu.gt.rickandmorty"
+        applicationId = "uvg.edu.gt.rickmorty"
         minSdk = 26
-        //noinspection OldTargetApi
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -51,13 +50,12 @@ android {
 }
 
 dependencies {
-
-    implementation (libs.androidx.compose.ui.ui)
+    implementation (libs.ui)
     implementation (libs.androidx.material)
     implementation (libs.ui.tooling.preview)
     implementation (libs.androidx.navigation.compose)
-    implementation(libs.coil.compose)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.coil.compose)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
@@ -65,8 +63,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.material3)
-    implementation (libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
